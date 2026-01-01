@@ -1,0 +1,151 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif ;
+}
+.main-section {
+    flex: 1;
+    /* border: 1px solid rgb(0, 81, 255); */
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:32px 38px;
+}
+.box {
+    border: 3px solid blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+.title-info {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 16px;
+}
+.content {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 16px;
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Stop the text of (.card p) from being too wide; keeps it the same size as the square (.box). */
+    max-width: 150px;  
+}
+.card p {
+    text-align: center;
+}
+.section2 {
+    display: flex;
+    padding: 48px;
+    /* border: 1px solid purple; */
+    
+}
+.right-side {
+    background-color: gray;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 16px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side {
+  flex-grow: 1;
+  flex-basis: 0;
+  /* border: 1px solid pink; */
+  padding: 16px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e5e7eb;
+    padding: 62px;
+}
+#thor {
+    align-self: flex-end;
+    font-weight: bold;
+}
+.signup {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+    margin: 62px;
+}
+.header, .section2, .footer {
+    background-color: #1f2937;
+    color: white;
+}
+.hero-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.hero-links, .hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+button, .signup {
+    background-color: #3882f6;
+    color: white;
+}
+.text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.call {
+    font-weight: bold;
+}
+.info {
+    padding: 16px;
+    margin: 32px;
+}
+button {
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    padding: 3px 16px;
+    margin: 8px;
+}
+.signup button {
+    border: 1px solid white;
+}
+.left {
+ 
+}
